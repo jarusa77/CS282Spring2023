@@ -1,12 +1,14 @@
+/* CS 282 Intermediate Java  Spring 2023
+ * Cuyamaca College
+ * Jaime  Sanchez
+ * Lab 1 
+ * 
+ */
 
 import java.util.Scanner;
 
+public class BankAccount {
 
-public class BankAccount 
-{
-	
-
-	
 	public static void main(String[] args) 
 	{
 		
@@ -67,5 +69,6 @@ public class BankAccount
 		System.out.println(); //prints blank line
 		return choice;
 	}
+
 
 }
