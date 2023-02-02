@@ -23,12 +23,12 @@ public class BankAccount {
 			choice = menu();
 			switch(choice) 
 			{
-				case 1 -> acct.displayBalance();
-				case 2 -> System.out.println("TODO: Display Account rate\n\n");
-				case 3 -> System.out.println("TODO: Deposit Money\n\n");
-				case 4 -> System.out.println("TODO: Withdraw Money\n\n");
-				case 5 -> System.out.println("TODO: Calculate Accrual\n\n");
-				case 6 -> System.out.println("!!Thank you and Good Bye!!\n");
+				case 1: acct.displayBalance();
+				case 2: System.out.println("TODO: Display Account rate\n\n");
+				case 3: System.out.println("TODO: Deposit Money\n\n");
+				case 4:  System.out.println("TODO: Withdraw Money\n\n");
+				case 5:  System.out.println("TODO: Calculate Accrual\n\n");
+				case 6: System.out.println("!!Thank you and Good Bye!!\n");
 			}
 		}
 	}
